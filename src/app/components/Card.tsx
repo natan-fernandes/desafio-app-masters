@@ -46,7 +46,7 @@ export const Card = (props: CardProps) => {
         <span>Publisher: {game.publisher}</span>
         <span>Developer: {game.developer}</span>
       </div>
-      <div className='flex xl:flex-row sm:flex-col justify-end items-end w-full gap-2 mt-auto px-1'>
+      <div className='flex 2xl:flex-row flex-col justify-end items-end w-full gap-2 mt-auto px-1'>
         <span className='xl:mr-auto'>
           Release date: {getReleaseDate(game.release_date)}
         </span>

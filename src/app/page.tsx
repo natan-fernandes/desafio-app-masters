@@ -65,7 +65,7 @@ export default function Home() {
           games.length > 0 && getAllGenres().map(genre => 
             <span 
               key={genre}
-              className={`cursor-pointer bg-lime-400 text-slate-900 p-1 rounded-md ${selectedGender === genre && 'font-bold text-lg'}`}
+              className={`cursor-pointer bg-lime-400 text-slate-900 p-2 rounded-md ${selectedGender === genre && 'font-bold text-lg'}`}
               onClick={() => setSelectedGender(genre)}
             >
               {genre}
